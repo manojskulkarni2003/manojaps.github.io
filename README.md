@@ -1,4 +1,4 @@
-# Ola Platform: A Comprehensive APS Portfolio
+# A Comprehensive APS Portfolio
 
 **Course Name**  
 Algorithmic Problem Solving
