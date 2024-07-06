@@ -31,3 +31,7 @@ Prakash Hegade
 ## Introduction
 
 hello world and finding the best form learning git and github
+working on the Zepto the fastest delivery in India 
+the building supply chain for this would heathic that to with the 
+10 minutes dilevery on target. so we need to purpose a dynamic and 
+realistic approach for this let's GO 
