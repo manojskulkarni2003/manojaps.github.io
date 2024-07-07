@@ -22,8 +22,6 @@ Prakash Hegade
 
 
 1. [Introduction](htmlpages/intro.html)
-<!-- 2. [Need of Portfolio](htmlpages/need-of-portfolio.html)
-3. [Objectives](htmlpages/objectives.html) -->
 2. [Business Case Study](htmlpages/business-case-study.html)
 
 ## Introduction
