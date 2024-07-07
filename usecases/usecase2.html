@@ -60,7 +60,17 @@
     <section>
         <h2>4.2 search Operation </h2>
        <p>
-        
+        For user: In scenarios where data is sorted (e.g., lists of user IDs or timestamps), binary search is used to quickly locate specific entries.<br>
+        <a href="../code/binarysearch.cpp">code</a><br>
+        Text Search: For searching textual content (e.g., posts, comments), algorithms like Knuth-Morris-Pratt (KMP) or Boyer-Moore are applied to find occurrences of a keyword or phrase efficiently.<br>
+        <a href="../code/boyer_mere.cpp">code</a>
+        <h4> Performance analysis</h4>
+        binary search :<br>
+        Space complexity:O(1)<br>
+        Time complexity:O(n)<br>
+        boyer moore:<br>
+        Time complexity:O(n*m)<br>
+        space Complexity:O(k+E) E is the size of alphabet<br>
        </p>
     </section>
 </body>
