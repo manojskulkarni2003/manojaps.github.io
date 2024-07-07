@@ -1,37 +1,33 @@
-# A Comprehensive APS Portfolio
+# Project Title
 
-**Course Name**  
-Algorithmic Problem Solving
+This project is based on the basic model of Airbnb, focusing on various aspects such as the introduction, the need for a portfolio, objectives, and applicable data structures and algorithms.
 
-**Course Code**  
-23ECSE309
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Need of Portfolio](#need-of-portfolio)
+3. [Objectives](#objectives)
+4. [Data Structures and Algorithms Applicable](#data-structures-and-algorithms-applicable)
 
-**Name**  
-MANOJ SHANKAR KULKARNI
+### 1. Introduction
 
-**University**  
-KLE Technological University, Hubballi-31
+This section provides an overview of the project, its purpose, and the basic model of Airbnb being used.
 
-**Course Instructor**  
-Prakash Hegade
+**Route:** `/introduction`
 
-**USN**  
-01FE21BCS097
+### 2. Need of Portfolio
 
-### This page hosts:
+This section explains the necessity of having a portfolio in the context of the project and its relevance to the model of Airbnb.
 
-1. **Introduction**
+**Route:** `/need-of-portfolio`
 
-2. **Need of Portfolio**
+### 3. Objectives
 
-3. **Objectives**
+This section outlines the main goals and objectives of the project.
 
-4. **Data Structures and Algorithms applicable**
+**Route:** `/objectives`
 
-## Introduction
+### 4. Data Structures and Algorithms Applicable
 
-hello world and finding the best form learning git and github
-working on the Zepto the fastest delivery in India 
-the building supply chain for this would heathic that to with the 
-10 minutes dilevery on target. so we need to purpose a dynamic and 
-realistic approach for this let's GO 
+This section describes the data structures and algorithms that are applicable to the project and their implementation details.
+
+**Route:** `/data-structures-algorithms`
