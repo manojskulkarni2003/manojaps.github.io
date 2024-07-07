@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction - Working on Facebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .animated-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      margin: 10px;
+    }
+    .animated-button:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+    }
+    .animated-button:focus {
+      outline: none;
+    }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 10px auto;
+        }
+        #id1{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>4.1 Friend recommendation </h2>
+        <p>
+            Under the feature people you may know feature facebook recommands the friends
+            Facebook defines it as,<p id="id1">
+                People you may know is a list of people who you might want to be friends with because you have things in common, such as a mutual friend, school or workplace.
+            You can send a friend request to anyone on your People you may know list by selecting Add Friend. If you think a suggestion is unhelpful, you can remove it and see fewer suggestions like it.</p>
+        <br>
+                 In simple terms<br>
+      1.Friends of friends: One of the most popular ways on Facebook is mutual friends. You may face this, and you see that sometimes you can have more than 100 mutual friends with someone.<br>
+
+      2.Bio: How you will be your next friend is the way the bio affects the bio. Based on information from your school, university, places you lived in, and family members, Facebook will suggest people in the same category.<br>
+
+      3.Likes and Comments: How Your Posts Affect Facebook Friend Suggestions. For example, if you prefer a page related to the automobile industry, people interested in your suggestions may come to the list of friends<br>
+
+      4.The profile you visited: If you visit a profile frequently on Facebook, it will assign an alarm to Facebook that you are inspired to keep that person as a friend. Thus, they will be added to the advice list.<br>
+
+      5.Facebook Search Bar: Every word you search in the Facebook search bar can be considered a sign of your need. Facebook will get it soon and send you suggestions that can help you with your needs.<br>
+
+      6.Based on location
+                <h4>Understanding</h4>
+      a)graph traversal Algorithms:
+      using a graph traversal algorithm to know how many people are connected one another <br>
+      b)Collaberative filtering:
+      ecommends friends based on the similarity between users. If two users have a high number of mutual friends or interact with similar users, they are likely to be recommended to each other.<br>
+      Friends you add: Once you’ve added a person, you’ve given Facebook a clue that you’re interested in adding as a friend. So, Facebook will start looking for similar profiles and familiar people. Most likely, the suggestion will change the friends of those users.<br>
+      c)Common neighbours<br>
+      <!-- after all this facebook come up with <a href="https://en.wikipedia.org/wiki/Apache_Giraph?trk=article-ssr-frontend-pulse_little-text-block">Apache Giraph</a> -->
+        </p>
+        <a href="../code/bfs.cpp">graph traversal algo</a>
+        <h4>Performance analysis</h4>
+        space complexity:O(V)
+        Time complexity:O(V+E)<br>
+        limitations:<br>
+        1.might be unable to find the deep connections<br>
+        2.cannot be personalized
+        
+    </section>
+</body>
+<footer>
+    <p>&copy; 2024 MANOJ SHANKAR KULKARNI. All rights reserved.</p>
+</footer>
+</html>
