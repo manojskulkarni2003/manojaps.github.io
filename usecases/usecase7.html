@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction - Working on Facebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .animated-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      margin: 10px;
+    }
+    .animated-button:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+    }
+    .animated-button:focus {
+      outline: none;
+    }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 10px auto;
+        }
+        #id1{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>4.6 Search autocompletion </h2>
+       <p>
+        The Trie data structure can be used for implementing autocomplete functionalities, especially when we need to manage and suggest a large number of strings, such as username. In the context of facebook search bar tool, using a Trie can significantly enhance the user experience by providing quick and relevant suggestions as users type their required username. Tries can be more space-efficient than storing all strings separately, especially when there are many common prefixes.
+        <p id="id1">limitations</p>
+        Tries can still consume a significant amount of memory, especially if the dataset is very large and there are many unique strings. Also, in a dynamic environment where new addresses and locations are frequently added or updated, maintaining the Trie efficiently can be challenging.
+
+While there are challenges in terms of memory usage and implementation complexity, the benefits of speed and efficient prefix matching make Tries a suitable choice for this functionality.
+
+If there are string with common prefixes, then Radix tree can be used as it is particularly useful for storing strings with common prefixes efficiently. It reduces space complexity by merging nodes with single children into a single node.
+        <br>
+        <a href="../code/trie.cpp">code</a><br>
+        <h4> Performance analysis</h4>
+        Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key<br>
+        Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key<br>
+       </p>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2024 MANOJ SHANKAR KULKARNI. All rights reserved.</p>
+</footer>
+</html>
