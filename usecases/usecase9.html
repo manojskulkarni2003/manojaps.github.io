@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction - Working on Facebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .animated-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      margin: 10px;
+    }
+    .animated-button:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+    }
+    .animated-button:focus {
+      outline: none;
+    }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 10px auto;
+        }
+        #id1{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>4.9 Database indexing </h2>
+       <p>
+        These balanced tree structures are commonly used for indexing structured data, such as user profiles, posts, and comments. They support efficient range queries, insertions, deletions, and updates.Provide logarithmic time complexity for search operations, ensuring fast data retrieval and maintaining sorted order of keys, which is beneficial for ordered data retrieval.
+        <p id="id1">limitations</p>
+        we can use b+ trees also which are easily mangable<br>
+        <a href="../code/redblacktree.cpp">code</a><br>
+        <h4> Performance analysis</h4>
+        Time Complexity: O(logN) for insertion, deletion whrer Nth node is inserted or delted <br>
+        Space Complexity: O(N)<br>
+       </p>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2024 MANOJ SHANKAR KULKARNI. All rights reserved.</p>
+</footer>
+</html>
