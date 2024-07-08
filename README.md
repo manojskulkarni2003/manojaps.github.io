@@ -22,8 +22,6 @@ Prakash Hegade
 
 
 1. [Introduction](htmlpages/intro.html)
-2. [Business Case Study](htmlpages/business-case-study.html)
+2. [Business Case Study](htmlpages/usecase.html.html)
 
-## Introduction
 
-This section provides an overview of the project, its purpose, and the basic model of Airbnb being used.
