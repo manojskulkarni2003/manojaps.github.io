@@ -84,17 +84,22 @@
       ecommends friends based on the similarity between users. If two users have a high number of mutual friends or interact with similar users, they are likely to be recommended to each other.<br>
       Friends you add: Once you’ve added a person, you’ve given Facebook a clue that you’re interested in adding as a friend. So, Facebook will start looking for similar profiles and familiar people. Most likely, the suggestion will change the friends of those users.<br>
       c)Common neighbours<br>
+      <img src="../asset/image/Breadth-First-Tree-Traversal.gif" alt="">
       <!-- after all this facebook come up with <a href="https://en.wikipedia.org/wiki/Apache_Giraph?trk=article-ssr-frontend-pulse_little-text-block">Apache Giraph</a> -->
         </p>
-     we also use  A* algorithm can be used to suggest new friends based on mutual friends or geographical location. It evaluates paths (friend connections) using heuristics like mutual friends count or common interests to prioritize recommendations<br>
-        <a href="../code/bfs.cpp">graph traversal algo</a><br>
-        <a href="../code/A.cpp">A*</a><br>
+        <a href="../code/bfs.cpp">Access the code:graph traversal algo</a><br>
+     we can also use  A* algorithm can be used to suggest new friends based on mutual friends or geographical location. It evaluates paths (friend connections) using heuristics like mutual friends count or common interests to prioritize recommendations<br>
+     <img src="../asset/image/astar.gif" alt="">
+        
+        <a href="../code/A.cpp">Access the code:A*</a><br>
         limitations:<br>
         1.might be unable to find the deep connections<br>
         2.cannot be personalized
         <h4>Performance analysis</h4>
         space complexity:O(V)
         Time complexity:O(V+E)<br>
+        A* has exponential time and space complexity,O(b^d)
+        b is the branching factor (the average number of successors per state), and d is the depth of the solution (the number of steps in the shortest path).
         
     </section>
 </body>

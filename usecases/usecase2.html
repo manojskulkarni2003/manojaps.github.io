@@ -61,9 +61,13 @@
         <h2>4.2 search Operation </h2>
        <p>
         For user: In scenarios where data is sorted (e.g., lists of user IDs or timestamps), binary search is used to quickly locate specific entries.<br>
-        <a href="../code/binarysearch.cpp">code</a><br>
-        Text Search: For searching textual content (e.g., posts, comments), algorithms like Knuth-Morris-Pratt (KMP) or Boyer-Moore are applied to find occurrences of a keyword or phrase efficiently.<br>
-        <a href="../code/boyer_mere.cpp">code</a>
+        <img src="../asset/image/binary-search-small.gif" alt="">
+        <a href="../code/binarysearch.cpp"> Access the code</a><br>
+        Text Search: For searching textual content (e.g., posts, comments), algorithms like Boyer-Moore are applied to find occurrences of a keyword or phrase efficiently.<br>
+        Why Boyer-Moore algo is better?<br>
+        The Boyer-Moore algorithm is preferred over KMP in Facebook scenarios due to its efficient text searching. It uses bad character and good suffix heuristics, performing better on large text datasets and enhancing features like content filtering and real-time search.<br>
+        <img src="../asset/image/bm.gif" alt="">
+        <a href="../code/boyer_mere.cpp">Access the code</a>
         <h4> Performance analysis</h4>
         binary search :<br>
         Space complexity:O(1)<br>

@@ -61,12 +61,16 @@
         <h2>4.3trending topic detection </h2>
        <p>
         trending topics cab be detected by using a sliding window with variable window size(like for day,week,year)and using hash map to count the number hash tags used within the particualar time slot can be usefull<br>
+        <img src="../asset/image/technique.gif" alt="">
         <a href="../code/sliding_window.cpp">code1</a><br>
-        <a href="../code/hashmap.cpp">code2</a>
+        <p> MinHash is utilized to compare user sets (like artist listeners) efficiently, estimating Jaccard similarity. This speeds up the trend detection </p>
+        <img src="../asset/image/minhashing_permuation_animation.gif" alt="">
+        <a href="../code/minhash.py">code2</a>
         <h4> Performance analysis</h4>
-        hashing insterion :<br>
-        Time complexity:O(n)<br>
-        space complexity:O(n)<br>
+        Minhash :<br>
+        Time Complexity:O(K*N) for creating signatures and O(k) for estimationf similarity<br>
+        Space Complexity:O(K) for storing signatures<br>
+        
         Sliding window
         Time complexity:O(n)<br>
         space complexity:O(n)<br>
