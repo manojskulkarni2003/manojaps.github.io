@@ -22,6 +22,6 @@ Prakash Hegade
 
 
 1. [Introduction](htmlpages/intro.html)
-2. [Business Case Study](htmlpages/usecase.html.html)
+2. [Business Case Study](htmlpages/usecase.html)
 
 
